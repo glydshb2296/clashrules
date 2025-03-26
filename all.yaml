@@ -1,0 +1,325 @@
+proxies:
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 11.5MB/s"
+      network: tcp
+      port: 22054
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: zhee01.dynu.net
+      servername: www.yahoo.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7韩国1 | ⬇️ 16.5MB/s"
+      password: amazonskr05
+      port: 443
+      server: 43.203.206.73
+      type: ss
+    - name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 19.1MB/s"
+      password: 5c7d4c38-50aa-3ad2-a71e-1c6bf5fff892
+      port: 20300
+      server: gy.58n.net
+      skip-cert-verify: true
+      sni: z300.hongkongnode.top
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 11.6MB/s"
+      password: 5c7d4c38-50aa-3ad2-a71e-1c6bf5fff892
+      port: 20288
+      server: gy.58n.net
+      skip-cert-verify: true
+      sni: z288.hongkongnode.top
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1F7\U0001F1FA俄罗斯1 | ⬇️ 10.8MB/s"
+      password: dfc78593808d4f68
+      port: "19111"
+      server: 45.130.147.138
+      type: ss
+      udp: true
+    - auth: 5CBqBh6MeDq6GajcilBiDg==
+      name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 10.7MB/s"
+      password: 5CBqBh6MeDq6GajcilBiDg==
+      port: 61001
+      server: 192-227-152-86.nip.io
+      skip-cert-verify: true
+      sni: 192-227-152-86.nip.io
+      type: hysteria2
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 17.4MB/s"
+      network: tcp
+      port: 16497
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: zhee01.dynu.net
+      servername: www.nvidia.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5日本3 | ⬇️ 10.8MB/s"
+      network: tcp
+      port: 13989
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: csuzhou01.1cooldns.com
+      servername: gateway.icloud.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - cipher: aes-256-gcm
+      client-fingerprint: chrome
+      name: "\U0001F1F7\U0001F1FA俄罗斯2 | ⬇️ 11.7MB/s"
+      password: dfc78593808d4f68
+      port: 19111
+      server: 45.130.147.138
+      tfo: false
+      type: ss
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1FC台湾1 | ⬇️ 20.7MB/s"
+      network: tcp
+      port: 37809
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: shenzhou05.mysynology.net
+      servername: www.yahoo.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: 1000 Mbps
+      name: "\U0001F1EB\U0001F1F7法国1 | ⬇️ 11.1MB/s"
+      port: 44557
+      server: 195.154.200.178
+      servername: apple.com
+      skip-cert-verify: true
+      tls: true
+      type: hysteria
+      up: 1000 Mbps
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 14.8MB/s"
+      network: tcp
+      port: 21578
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: shenzhou05.mysynology.net
+      servername: www.amazon.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5日本4 | ⬇️ 16.0MB/s"
+      network: tcp
+      port: 48121
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: beiyong.dynuddns.net
+      servername: www.nvidia.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8美国5 | ⬇️ 10.0MB/s"
+      network: tcp
+      port: 57926
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: beiyong.dynuddns.net
+      servername: gateway.icloud.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - name: "\U0001F1EF\U0001F1F5日本5 | ⬇️ 11.6MB/s"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 443
+      server: jp104-cdn-route.couldflare-cdn.com
+      skip-cert-verify: false
+      sni: jp104-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 13.3MB/s"
+      network: tcp
+      port: 24318
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: test123.zlqhdns.top
+      servername: www.nvidia.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - client-fingerprint: ""
+      flow: ""
+      mode: ""
+      name: "\U0001F1EB\U0001F1F7法国2 | ⬇️ 11.7MB/s"
+      network: ws
+      port: 80
+      server: ipcloudflaretamiz.fastly80-2.hosting-ip.com
+      servername: ""
+      tls: false
+      type: vless
+      udp: false
+      uuid: 03b04c54-7080-4052-a73e-8b6824dafe05
+      ws-opts:
+        headers:
+            Host: vipfast_7.com
+        path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=1024
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1FC台湾2 | ⬇️ 14.1MB/s"
+      network: tcp
+      port: 13263
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: zhee01.dynu.net
+      servername: gateway.icloud.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8美国6 | ⬇️ 10.2MB/s"
+      network: ws
+      port: 23615
+      server: 15.mamamajd.site
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 074d6e96-ab89-3573-8c47-468556e3803b
+      ws-opts:
+        headers:
+            Host: 15.mamamajd.site
+        path: /
+    - alpn:
+        - http/1.1
+      client-fingerprint: randomized
+      name: "\U0001F1EB\U0001F1EE芬兰1 | ⬇️ 13.8MB/s"
+      network: ws
+      port: "2087"
+      server: Vpnmizban.iranigamebaz.ir
+      servername: crm.iranigamebaz.ir
+      tls: true
+      type: vless
+      udp: true
+      uuid: 51435e51-e048-4a32-a9e6-1e6fa56a576d
+      ws-opts:
+        headers:
+            Host: crm.iranigamebaz.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban------V2RayMizban
+      xudp: true
+    - name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 18.4MB/s"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 443
+      server: hkre1-cdn-route.couldflare-cdn.com
+      skip-cert-verify: false
+      sni: hkre1-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
+    - cipher: aes-256-cfb
+      client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 17.3MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.140.70.168
+      tfo: false
+      type: ss
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1FC台湾3 | ⬇️ 19.4MB/s"
+      network: tcp
+      port: 15700
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: zhee01.dynu.net
+      servername: www.nvidia.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8美国7 | ⬇️ 11.1MB/s"
+      network: tcp
+      port: 38311
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: zhee01.dynu.net
+      servername: www.amazon.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 16.1MB/s"
+      network: tcp
+      port: 44003
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: csuzhou01.1cooldns.com
+      servername: www.nvidia.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: 1000 Mbps
+      name: "\U0001F1F7\U0001F1FA俄罗斯3 | ⬇️ 10.4MB/s"
+      port: 10469
+      server: 46.17.41.174
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 100 Mbps
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8美国8 | ⬇️ 13.2MB/s"
+      network: tcp
+      port: 64654
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: zhee01.dynu.net
+      servername: gateway.icloud.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8美国9 | ⬇️ 10.1MB/s"
+      network: tcp
+      port: 29023
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: shenzhou05.mysynology.net
+      servername: www.amazon.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5日本6 | ⬇️ 14.8MB/s"
+      network: tcp
+      port: 14548
+      reality-opts:
+        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      server: csuzhou01.1cooldns.com
+      servername: www.nvidia.com
+      tls: true
+      type: vless
+      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
